@@ -1,0 +1,31 @@
+{
+  "name": "pmatseykanets/artisan-beans",
+  "description": "Easily manage your Beanstalkd job queues right from the Laravel artisan command",
+  "keywords": ["laravel", "artisan", "beanstalkd", "queue", "job"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Matseykanets",
+      "email": "pmatseykanets@gmail.com",
+      "homepage": "https://github.com/pmatseykanets"
+    }
+  ],
+  "require": {
+    "php": "^7.2|^7.3|^7.4|^8.*",
+    "illuminate/console": "~6.0|~7.0|~8.0|~9.0|~10.0",
+    "illuminate/support": "~6.0|~7.0|~8.0|~9.0|~10.0",
+    "pda/pheanstalk": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pvm\\ArtisanBeans\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Pvm\\ArtisanBeans\\ArtisanBeansServiceProvider"
+      ]
+    }
+  }
+}
