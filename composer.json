@@ -1,13 +1,13 @@
 {
-  "name": "pmatseykanets/artisan-beans",
+  "name": "davidany/dtr-beans",
   "description": "Easily manage your Beanstalkd job queues right from the Laravel artisan command",
   "keywords": ["laravel", "artisan", "beanstalkd", "queue", "job"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Peter Matseykanets",
-      "email": "pmatseykanets@gmail.com",
-      "homepage": "https://github.com/pmatseykanets"
+      "name": "David Abraham",
+      "email": "dave@springbasemedia.com",
+      "homepage": "https://github.com/davidany"
     }
   ],
   "require": {
